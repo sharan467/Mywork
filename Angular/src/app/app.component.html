@@ -1,0 +1,23 @@
+<h2>Demo to show 7000 recods </h2>
+  <button (click)="loadData()">Load Data</button>
+  <table >
+    <tr>
+      <th>ID</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Email</th>
+      <th>Gender</th>
+      <th>IP Address</th>
+    </tr>
+    <tr *ngFor="let item of response">
+        <td>{{ item.id}}</td>
+        <td>{{ item.first_name}}</td>
+        <td>{{ item.last_name}}</td>
+        <td>{{ item.gender}}</td>
+        <td>{{ item.ip_address}}</td>
+    </tr>
+
+  </table>
+
+
+
