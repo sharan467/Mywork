@@ -1,0 +1,15 @@
+.container {
+
+	display: flex;
+    justify-content: space-between;
+}
+
+.imageList{
+	margin:2px;
+}
+
+img{
+	object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
