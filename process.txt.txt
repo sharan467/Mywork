@@ -1,0 +1,22 @@
+ Steps to run the Angular and React Components.
+
+
+ After Cloning or downloading the repository. Please make sure to cut and paste Angular folder seperately.
+
+ by doing this we will have one Angular folder and the remaining is React Folder.
+
+ After doing this , please have two command prompt tabs 
+
+ In Angular cmd prompt:
+ make your folder as Angular and 
+ -->run "npm install" command
+ after that 
+  -->run "npm start"
+
+In React cmd prompt:
+
+Make your folder path as React
+
+ --->Run npm install
+--> npm run it
+ 
